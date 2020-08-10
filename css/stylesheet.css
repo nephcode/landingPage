@@ -13,10 +13,31 @@ body {
   text-align: center;
   height: 100vh;
   color: black;
-  background-size:cover; 
+  background-size: cover;
+}
+
+.linker {
+  margin-top: 2rem;
+}
+
+.linker a {
+  font-size: 1.25rem;
+  border: solid 2px;
+  padding: 5px;
+  border-radius: 5px;
+  /*box-shadow: 0 0 5px #000, 0 0 32px #000;*/
+  width: 200px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  text-transform: uppercase;
+
 }
 
 #time {
+  font-size: 8rem;
+}
+
+#todayDay {
   font-size: 8rem;
 }
 
@@ -30,7 +51,15 @@ h2 {
 }
 
 @media (max-width: 700px) {
+
   #time {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 700px) {
+
+  #todayDay {
     font-size: 6rem;
   }
 }

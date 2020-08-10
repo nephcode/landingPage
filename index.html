@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet"> 
- <!-- <link rel="stylesheet" href="/css/normalize.css" /> -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@200&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="/css/normalize.css" /> -->
   <link rel="stylesheet" href="/css/stylesheet.css" />
   <title>Welcome</title>
 </head>
 
 <body>
+  <span id="todayDay"></span>
   <time id="time"></time>
   <h1>
     <span id="greeting"></span>
@@ -19,6 +22,11 @@
 
   <h2>What Is Your Focus For Today?</h2>
   <h2 id="focus" contenteditable="true"></h2>
+  <div class="linker"><a href="meditation/index.html">Méditation</a> <a href="shifumi/index.html">Shifumi</a></div>
+  <!--charge moment.js pour gérer les formats de dates-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <!--Adapte le moment.js pour avoir un format de date local-->
+  <script src=" https://momentjs.com/downloads/moment-with-locales.min.js"></script>
   <script src="main.js"></script>
 </body>
 
