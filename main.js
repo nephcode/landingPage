@@ -217,6 +217,6 @@ focus.addEventListener('blur', setFocus);
 
 // Run
 showTime();
-setBgGreet();
+//setBgGreet();
 getName();
 getFocus();
